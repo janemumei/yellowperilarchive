@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'CenturySchoolbook';
+    src: url('centuryschoolbook.eot');
+    src: url('centuryschoolbook.eot') format('embedded-opentype'),
+url('centuryschoolbook.woff') format('woff'),
+url('CenturySchoolbook.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CenturySchoolbook';
+    src: url('centuryschoolbook-bold.eot');
+    src: url('centuryschoolbook-bold.eot') format('embedded-opentype'),
+url('centuryschoolbook-bold.woff') format('woff'),
+url('CenturySchoolbook-Bold.TTF') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CenturySchoolbook';
+    src: url('centuryschoolbook-italic.eot');
+    src: url('centuryschoolbook-italic.eot') format('embedded-opentype'),
+url('centuryschoolbook-italic.woff') format('woff'),
+url('CenturySchoolbook-Italic.TTF') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'CenturySchoolbook';
+    src: url('centuryschoolbook-bolditalic.eot');
+    src: url('centuryschoolbook-bolditalic.eot') format('embedded-opentype'),
+url('centuryschoolbook-bolditalic.woff') format('woff'),
+url('CenturySchoolbook-BoldItalic.TTF') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'HalisR';
+    src: url('halisr-100thin.eot');
+    src: url('halisr-100thin.eot') format('embedded-opentype'),
+url('HalisR-100Thin.otf') format('opentype'),
+url('halisr-100thin.woff') format('woff'),
+url('halisr-100thin.ttf') format('truetype');
+	font-weight: 100;
+}
+
+@font-face {
+    font-family: 'HalisR';
+    src: url('halisr-400book.eot');
+    src: url('halisr-400book.eot') format('embedded-opentype'),
+url('HalisR-400Book.otf') format('opentype'),
+url('halisr-400book.woff') format('woff'),
+url('halisr-400book.ttf') format('truetype');
+	font-weight: 400;
+}
+
+@font-face {
+    font-family: 'HalisR';
+    src: url('halisr-600medium.eot');
+    src: url('halisr-600medium.eot') format('embedded-opentype'),
+url('HalisR-600Medium.otf') format('opentype'),
+url('halisr-600medium.woff') format('woff'),
+url('halisr-600medium.ttf') format('truetype');
+	font-weight: 600;
+}
+
+@font-face {
+    font-family: 'HalisR';
+    src: url('halisr-black.eot');
+    src: url('halisr-black.eot') format('embedded-opentype'),
+url('HalisR-Black.otf') format('opentype'),
+url('halisr-black.woff') format('woff'),
+url('halisr-black.ttf') format('truetype');
+	font-weight: bold;
+}
+
+
+@font-face {
+    font-family: 'KnockoutHTF68';
+    src: url('knockout-htf68-fullfeatherwt.eot');
+    src: url('knockout-htf68-fullfeatherwt.eot') format('embedded-opentype'),
+url('knockout-htf68-fullfeatherwt.woff') format('woff'),
+url('knockout-htf68-fullfeatherwt.ttf') format('truetype');
+}

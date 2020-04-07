@@ -1,0 +1,265 @@
+* {
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+	border:0;
+	vertical-align:baseline;
+	box-sizing:content-box;
+}
+
+a {color:inherit;}
+
+/* FONTS */
+
+html,body {
+	height:100%;
+	width:100%;
+	min-width:768px;
+}
+
+.title {
+	font-family:'KnockoutHTF68';
+	font-size:108px;
+	line-height:0.85;
+}
+
+.button, .featured {
+	font-family:'HalisR';
+	font-size:22px;
+	font-weight:400;
+}
+
+.menu-box {
+	font-family:'HalisR';
+	font-size:22px;
+	font-weight:600;
+}
+
+p {
+	font-family:'CenturySchoolbook';
+	font-size:16px;
+	margin-top:6px;
+}
+
+p.quote,p.small {font-size:12px;}
+
+.white {color:#FFF;border-color:#FFF;}
+.black {color:#000;border-color:#000;}
+.yellow {color:rgb(252,216,25);border-color:rgb(252,216,25);}
+
+.header {
+	height:50vw;
+	min-height:389px;
+	width:100%;
+	min-width:768px;
+	background-image:url(img/cover.jpg);
+	background-repeat:no-repeat;
+	background-position:center 20%;
+	background-size:120%;
+	position:relative;
+}
+
+.menu-box {
+	position:absolute;
+	bottom:0;
+	width:100%;
+	background-color:rgba(0,0,0,0.75);
+}
+
+.menu-box>.title {
+	float:left;
+	margin:12px 0 -24px 24px;
+}
+
+.menu {
+	margin:35px 24px;
+	display:inline-block;
+	position:relative;
+	top:3px;
+}
+
+.menu div {
+	display:inline-block;
+	height:100%;
+	padding:6px 12px;
+	position:relative;
+}
+
+.menu div:hover:after, .menu div:active:after {
+	content:'';
+	width:50%;
+	height:3px;
+	background:rgb(252,216,25);
+	position:absolute;
+	left:25%;
+	bottom:-3px;
+}
+
+.blog {
+	border:3px rgb(252,216,25) solid;
+	margin:35px 28px 35px 24px;
+	float:right;
+	height:100%;
+	padding:6px 12px;
+	position:relative;
+}
+
+.button {
+	border:3px solid;
+	padding:6px 12px;
+	margin:24px auto;
+	display:inline-block;
+}
+
+.quote-mark {
+	font-family:'KnockoutHTF68';
+	font-size:132px;
+	color:white;
+	position:absolute;
+	z-index:0 !important;
+}
+.qleft {
+	top:10%;left:56px;
+	-ms-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-moz-transform:rotate(180deg);
+	transform: rotate(180deg);
+}
+.qright {
+	bottom:25%;right:3%;
+}
+
+
+.archive-featured {
+	height:200px;
+	width:100%;
+	background:rgb(252,216,25);
+	display:table;
+	border-collapse:separate;
+	border-spacing:24px;
+	position:relative;
+}
+
+.quote-box {
+	height:100%;
+	vertical-align:middle;
+	display:table-cell;
+	padding-left:24px;
+	position:relative;
+	z-index:1;
+}
+
+.quote {
+	margin-left:24px;
+}
+
+.quote-credit {
+	text-align:right;
+}
+
+.archive-featured .button-box {
+	width:240px;
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+	position:relative;
+	z-index:1;
+}
+
+.archive {
+	background:#000;
+	width:100%;
+	display:table;
+	border-collapse:separate;
+	border-spacing:24px;
+	
+	
+	background-image:url('http://upload.wikimedia.org/wikipedia/commons/2/26/Chinatown%2C_New_York_City%2C_from_Robert_N._Dennis_collection_of_stereoscopic_views_2.jpg');
+	background-size:700px;
+	background-repeat:no-repeat;
+	background-position:10% center;
+}
+
+.archive-desc {
+	float:right;
+	width:400px;
+	background-color:rgba(0,0,0,0.5);
+	padding: 24px 36px;
+	margin:0 48px;
+}
+
+
+.academic {
+	background:rgb(252,216,25);
+	width:100%;
+	display:table;
+	border-collapse:separate;
+	border-spacing:24px;
+	
+	
+	background-image:url('https://scontent-b-iad.xx.fbcdn.net/hphotos-frc1/t31.0-8/1956676_749929751686143_225834030_o.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.academic-desc {
+	float:right;
+	width:600px;
+	background-color:rgba(252,216,25,0.5);
+	padding: 24px 36px;
+	margin:0 48px;
+}
+
+.forum {
+	background:#000;
+	width:100%;
+	display:table;
+	border-collapse:separate;
+	border-spacing:24px;
+	
+	
+	background-image:url('http://upload.wikimedia.org/wikipedia/commons/thumb/3/32/China_imperialism_cartoon.jpg/761px-China_imperialism_cartoon.jpg');
+	background-size:500px;
+	background-repeat:no-repeat;
+	background-position:75% 30%;
+}
+
+.forum-desc {
+	float:left;
+	width:400px;
+	background-color:rgba(0,0,0,0.5);
+	padding: 24px 36px;
+	margin:0 48px;
+}
+
+
+.footer {
+	background-color:rgb(252,216,25);
+	width:100%;
+	border-collapse:separate;
+	border-spacing:12px;
+	display:table; 
+}
+
+.footer>* {display:inline-block;}
+
+.footer>.title {
+	padding:0 12px;
+}
+
+.foot-links {
+	font-family:'CenturySchoolbook';
+}
+
+.footer>.credit {
+	font-family:'CenturySchoolbook';
+	float:right;
+	margin-top:50px;
+	margin-right:12px;
+}
+
+.jack {padding-left:40px;}
+
+.design {font-size:12px;}
